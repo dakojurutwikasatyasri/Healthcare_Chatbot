@@ -16,11 +16,11 @@ app = Flask(__name__)
 load_dotenv()
 
 # Fetch API keys safely
-PINECONE_API_KEY="pcsk_43dbdq_BFamaizKSRo6uBjRPigeHLkW2BLVTLJNUWXMuiDC8U9R5KkJygecffhxNkxnofE"
-AZURE_OPENAI_KEY="Aku4PbwrUxVVFGdtIuzDMUAiHVV1HE1dA1uDHuwDMsxMDswx7lOvJQQJ99BCACfhMk5XJ3w3AAAAACOGzuaI"
-AZURE_OPENAI_ENDPOINT="https://rutwi-m8oatrp1-swedencentral.openai.azure.com/"
-AZURE_OPENAI_DEPLOYMENT="gpt-4"
-AZURE_OPENAI_VERSION="2024-05-01-preview" # Updated to a valid API version
+PINECONE_API_KEY=
+AZURE_OPENAI_KEY=
+AZURE_OPENAI_ENDPOINT=
+AZURE_OPENAI_DEPLOYMENT=
+AZURE_OPENAI_VERSION= # Updated to a valid API version
 
 # Set environment variables
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
